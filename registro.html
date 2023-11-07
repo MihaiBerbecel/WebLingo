@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="containerMenu">
+            <div class="logo">
+                <img src="https://placedog.net/640/480?random" alt="Logo de tu empresa">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="registro.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="floatclear"></div>
+    </header>
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacta con nosotros</h2>
+            <p>Si estás interesado en nuestros servicios o tienes alguna consulta, no dudes en contactar con nosotros. Estaremos encantados de atenderte y ofrecerte la mejor solución para tu proyecto.</p>
+            <form action="enviar.php" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introduce tu email" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Introduce tu mensaje" required></textarea>
+                </div>
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Todos los derechos reservados &copy; Tu empresa 2023</p>
+            <ul>
+                <li><a href="#"><img src="https://placedog.net/640/480?random" alt="Facebook"></a></li>
+                <li><a href="#"><img src="https://placedog.net/640/480?random" alt="Twitter"></a></li>
+                <li><a href="#"><img src="https://placedog.net/640/480?random" alt="Instagram"></a></li>
+                <li><a href="#"><img src="https://placedog.net/640/480?random" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.integrante {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagen img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.descripcion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    font-size: 18px;
+    line-height: 1.5;
+}

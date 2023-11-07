@@ -1,0 +1,206 @@
+#servicios {
+    padding: 40px 0;
+    background-color: #d9e6f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicios h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0f4c81;
+}
+
+#servicios p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #0f4c81;
+}
+
+#servicios .servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#servicios .servicio {
+    width: 45%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#servicios .servicio .icono {
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#servicios .servicio .icono img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#servicios .servicio .contenido {
+    width: 70%;
+    padding: 20px;
+}
+
+#servicios .servicio .contenido h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0f4c81;
+}
+
+#servicios .servicio .contenido p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #0f4c81;
+}
+
+#servicios .servicio .contenido .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f4c81;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#servicios .servicio .contenido .boton:hover {
+    background-color: #0c3c6a;
+}
+
+.activo {
+    background-color: #0c3c6a;
+}
+
+#proceso-desarrollo {
+    margin-left: auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#proceso-desarrollo .fase {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#proceso-desarrollo .fase .icono {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#proceso-desarrollo .fase .icono img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#proceso-desarrollo .fase h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0f4c81;
+}
+
+#proceso-desarrollo .fase p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0f4c81;
+}
+
+
+#opiniones {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #d9e6f2;
+}
+
+#opiniones .opinion-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+#opiniones .opinion {
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#opiniones .opinion p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #0f4c81;
+}
+
+#opiniones .opinion .cliente {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+}
+
+#trabajos-ejemplos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#trabajos-ejemplos .trabajo {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#trabajos-ejemplos .trabajo:nth-child(odd) {
+    float: right;
+}
+
+#trabajos-ejemplos .trabajo:nth-child(even) {
+    float: left;
+}
+
+#trabajos-ejemplos .trabajo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#trabajos-ejemplos .trabajo p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0f4c81;
+}

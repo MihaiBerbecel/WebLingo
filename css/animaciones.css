@@ -1,0 +1,94 @@
+
+/* animaciones.css */
+
+/* Animación del logo */
+
+/* Animación del botón de inicio */
+@keyframes boton-inicio {
+    0% {
+        background-color: #0f4c81;
+    }
+    50% {
+        background-color: #0c3c6a;
+    }
+    100% {
+        background-color: #0f4c81;
+    }
+}
+
+#inicio .boton {
+    animation: boton-inicio 3s infinite;
+}
+
+/* Animación de la imagen de inicio */
+@keyframes imagen-inicio {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#inicio .imagen {
+    animation: imagen-inicio 2s;
+}
+
+/* Animación de los servicios */
+@keyframes servicio {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#servicios .servicio {
+    animation: servicio 1s;
+}
+
+/* Animación de los proyectos */
+@keyframes proyecto {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#proyectos .proyecto {
+    animation: proyecto 2s;
+}
+
+/* Animación del formulario de contacto */
+@keyframes contacto {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#contacto form {
+    animation: contacto 2s;
+}
+
+/* Animación de las redes sociales */
+@keyframes red-social {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+footer ul li a {
+    animation: red-social 4s infinite;
+}
